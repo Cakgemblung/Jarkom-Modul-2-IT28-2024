@@ -147,3 +147,10 @@ service bind9 restart
 
 ## No. 5
 Pastikan domain-domain tersebut dapat diakses oleh seluruh komputer (client) yang berada di Nusantara.
+![WhatsApp Image 2024-10-04 at 02 05 09](https://github.com/user-attachments/assets/bd0ffb76-341a-4dfc-8631-0cbe081a1a42)
+![WhatsApp Image 2024-10-04 at 02 06 27](https://github.com/user-attachments/assets/220dbce3-0704-4cc7-82d2-827c01ea24a9)
+![WhatsApp Image 2024-10-04 at 02 07 05](https://github.com/user-attachments/assets/be417677-8c17-45a7-a62b-d37fc9b817ba)
+![WhatsApp Image 2024-10-04 at 02 08 23](https://github.com/user-attachments/assets/20abb06d-e7c6-4153-9cb2-79be60036d2d)
+
+
+
