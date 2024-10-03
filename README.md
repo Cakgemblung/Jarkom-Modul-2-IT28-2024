@@ -64,7 +64,8 @@ www     IN      CNAME   sudarsana.it28.com.' > /etc/bind/it28/sudarsana.it28.com
 service bind9 restart
 ```
 
-
+### Testing
+![2](https://github.com/user-attachments/assets/097b435c-25f0-4dc2-8c24-b1196c0774a3)
 
 
 ## No. 3
@@ -105,6 +106,9 @@ www     IN      CNAME   pasopati.it28.com.' > /etc/bind/it28/pasopati.it28.com
 service bind9 restart
 ```
 
+### Testing
+![3](https://github.com/user-attachments/assets/c91bf589-a7a4-4ad1-b645-66d503047fa7)
+
 
 ## No. 4
 Markas pusat meminta dibuatnya domain khusus untuk menaruh informasi persenjataan dan suplai yang tersebar. Informasi dan suplai meme terbaru tersebut mengarah ke Tanjungkulai dan domain yang ingin digunakan adalah rujapala.xxxx.com dengan alias www.rujapala.xxxx.com.
@@ -143,6 +147,9 @@ www     IN      CNAME   rujapala.it28.com.' > /etc/bind/it28/rujapala.it28.com
 
 service bind9 restart
 ```
+
+### Testing
+![4](https://github.com/user-attachments/assets/cf5c94c6-c30b-469c-b5ba-a1574a9decc3)
 
 
 ## No. 5
