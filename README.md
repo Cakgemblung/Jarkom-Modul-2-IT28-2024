@@ -29,13 +29,120 @@ Menambahkan `nameserver 192.168.122.1` pada semua client
 ## No. 2
 Karena para pasukan membutuhkan koordinasi untuk melancarkan serangannya, maka buatlah sebuah domain yang mengarah ke Solok dengan alamat sudarsana.xxxx.com dengan alias www.sudarsana.xxxx.com, dimana xxxx merupakan kode kelompok. Contoh: sudarsana.it01.com.
 
+### Sriwijaya
+Isi dari file kami `123.sh`:
+
+```
+apt update
+apt install bind9 -y
+
+echo 'zone "sudarsana.it28.com" {
+	type master;
+	file "/etc/bind/it28/sudarsana.it28.com";
+};' > /etc/bind/named.conf.local
+
+mkdir /etc/bind/it28
+
+cp /etc/bind/db.local /etc/bind/it28/sudarsana.it28.com
+
+echo '
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     sudarsana.it28.com. root.sudarsana.it28.com. (
+                        2024100104      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      sudarsana.it28.com.
+@       IN      A       192.247.1.3     ; IP Solok
+www     IN      CNAME   sudarsana.it28.com.' > /etc/bind/it28/sudarsana.it28.com
+
+service bind9 restart
+```
+
+
+
 
 ## No. 3
 Para pasukan juga perlu mengetahui mana titik yang akan diserang, sehingga dibutuhkan domain lain yaitu pasopati.xxxx.com dengan alias www.pasopati.xxxx.com yang mengarah ke Kotalingga.
 
+### Sriwijaya
+Isi dari file kami `321.sh`:
+
+```
+apt update
+apt install bind9 -y
+
+echo 'zone "pasopati.it28.com" {
+	type master;
+	file "/etc/bind/it28/pasopati.it28.com";
+};' > /etc/bind/named.conf.local
+
+mkdir /etc/bind/it28
+
+cp /etc/bind/db.local /etc/bind/it28/pasopati.it28.com
+
+echo '
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     pasopati.it28.com. root.pasopati.it28.com. (
+                        2024100104      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      pasopati.it28.com.
+@       IN      A       192.247.3.6     ; IP Kotalingga
+www     IN      CNAME   pasopati.it28.com.' > /etc/bind/it28/pasopati.it28.com
+
+service bind9 restart
+```
+
 
 ## No. 4
 Markas pusat meminta dibuatnya domain khusus untuk menaruh informasi persenjataan dan suplai yang tersebar. Informasi dan suplai meme terbaru tersebut mengarah ke Tanjungkulai dan domain yang ingin digunakan adalah rujapala.xxxx.com dengan alias www.rujapala.xxxx.com.
+
+### Sriwijaya
+Isi dari file kami `456.sh`:
+
+```
+apt update
+apt install bind9 -y
+
+echo 'zone "rujapala.it28.com" {
+	type master;
+	file "/etc/bind/it28/rujapala.it28.com";
+};' > /etc/bind/named.conf.local
+
+mkdir /etc/bind/it28
+
+cp /etc/bind/db.local /etc/bind/it28/rujapala.it28.com
+
+echo '
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     rujapala.it28.com. root.rujapala.it28.com. (
+                        2024100104      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      rujapala.it28.com.
+@       IN      A       192.247.2.3     ; IP Tanjungkulai
+www     IN      CNAME   rujapala.it28.com.' > /etc/bind/it28/rujapala.it28.com
+
+service bind9 restart
+```
 
 
 ## No. 5
