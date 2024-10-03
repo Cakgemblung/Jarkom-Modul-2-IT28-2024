@@ -16,7 +16,11 @@ Untuk mempersiapkan peperangan World War MMXXIV (Iya sebanyak itu), Sriwijaya me
 Menambahkan `nameserver 192.168.122.1` pada semua client
 
 ### Testing
+- Mulawarman
 ![mulawarman](https://github.com/user-attachments/assets/df441e8f-023d-4acf-aee7-c8b138740cee)
+- Samaratungga
 ![samaratungga](https://github.com/user-attachments/assets/afc7b301-cfc4-453d-897d-c40397b180cf)
+- Balaraja
 ![balaraja](https://github.com/user-attachments/assets/3fa63415-26ce-4606-ba1f-f99f5e008752)
+- Alexandervolta
 ![alexandervolta](https://github.com/user-attachments/assets/85db5996-1f4b-4e7e-b613-399d198f7b75)
