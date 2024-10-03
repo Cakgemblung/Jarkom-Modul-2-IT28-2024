@@ -24,3 +24,19 @@ Menambahkan `nameserver 192.168.122.1` pada semua client
 ![balaraja](https://github.com/user-attachments/assets/3fa63415-26ce-4606-ba1f-f99f5e008752)
 - Alexandervolta
 ![alexandervolta](https://github.com/user-attachments/assets/85db5996-1f4b-4e7e-b613-399d198f7b75)
+
+
+## No. 2
+Karena para pasukan membutuhkan koordinasi untuk melancarkan serangannya, maka buatlah sebuah domain yang mengarah ke Solok dengan alamat sudarsana.xxxx.com dengan alias www.sudarsana.xxxx.com, dimana xxxx merupakan kode kelompok. Contoh: sudarsana.it01.com.
+
+
+## No. 3
+Para pasukan juga perlu mengetahui mana titik yang akan diserang, sehingga dibutuhkan domain lain yaitu pasopati.xxxx.com dengan alias www.pasopati.xxxx.com yang mengarah ke Kotalingga.
+
+
+## No. 4
+Markas pusat meminta dibuatnya domain khusus untuk menaruh informasi persenjataan dan suplai yang tersebar. Informasi dan suplai meme terbaru tersebut mengarah ke Tanjungkulai dan domain yang ingin digunakan adalah rujapala.xxxx.com dengan alias www.rujapala.xxxx.com.
+
+
+## No. 5
+Pastikan domain-domain tersebut dapat diakses oleh seluruh komputer (client) yang berada di Nusantara.
