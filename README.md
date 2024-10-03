@@ -12,11 +12,10 @@
 ## No. 1
 Untuk mempersiapkan peperangan World War MMXXIV (Iya sebanyak itu), Sriwijaya membuat dua kotanya menjadi web server yaitu Tanjungkulai, dan Bedahulu, serta Sriwijaya sendiri akan menjadi DNS Master. Kemudian karena merasa terdesak, Majapahit memberikan bantuan dan menjadikan kerajaannya (Majapahit) menjadi DNS Slave. 
 
-### Testing
-
-#### Setup
+### Setup
 Menambahkan `nameserver 192.168.122.1` pada semua client
 
+### Testing
 ![mulawarman](https://github.com/user-attachments/assets/df441e8f-023d-4acf-aee7-c8b138740cee)
 ![samaratungga](https://github.com/user-attachments/assets/afc7b301-cfc4-453d-897d-c40397b180cf)
 ![balaraja](https://github.com/user-attachments/assets/3fa63415-26ce-4606-ba1f-f99f5e008752)
